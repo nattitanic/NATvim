@@ -1,5 +1,7 @@
 return {
   'obsidian-nvim/obsidian.nvim',
+  enabled = true,
+  lazy = true,
   version = '*', -- use latest release, remove to use latest commit
   ft = 'markdown',
   ---@module 'obsidian'
@@ -8,12 +10,8 @@ return {
     legacy_commands = false, -- this will be removed in the next major release
     workspaces = {
       {
-        name = 'personal',
-        path = '~/vaults/personal',
-      },
-      {
-        name = 'work',
-        path = '~/vaults/work',
+        name = 'UW',
+        path = '~/Documents/notes/UW/MUSC 120',
       },
     },
   },
